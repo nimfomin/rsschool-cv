@@ -51,7 +51,3 @@ return arr
 ### English level:
 
 **Advanced (C1)**
-
-```
-
-```
