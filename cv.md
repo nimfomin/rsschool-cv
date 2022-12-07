@@ -35,7 +35,8 @@ I'm hoping that as a linguist by training, I'll be able to master all of the pro
 
 ### My code examples:
 
-```const superShuffle = function (arr) {
+```
+const superShuffle = function (arr) {
 return arr
 .map((item) => [Math.random(), item])
 .sort()
