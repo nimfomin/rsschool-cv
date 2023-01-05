@@ -40,14 +40,13 @@ button {
   border: none;
   color: #f7f7f7;
   padding: 20px 160px;
+  width: 100%;
 }
 
 button:hover {
-  background-color: orange;
-  border: none;
-  color: #1098ad;
-  padding: 20px 140px;
+  background-color: orange;.
 }
+
 
 .main-info {
   padding: 20px 40px;
@@ -94,8 +93,26 @@ ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 15px;
 }
 
 .skills-list {
   list-style: none;
+}
+
+.footer {
+  padding: 1.8rem 0;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rs-logo {
+  opacity: 0.75;
 }
